@@ -1,0 +1,51 @@
+
+
+.containerr{
+    margin: auto;
+}
+
+.order-search {
+    width: 500px !important;    
+    margin: 50px auto;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.order-status{
+    width: 80%;
+    margin: 30px auto;
+    display: block !important;
+}
+
+.order-status-wrapper {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.header {
+    background-color: #006491;
+    padding: 20px;
+    color: white;
+}
+
+.order-search button {
+ background-color: white;
+}
+
+.footer {
+    padding: 80px 80px;
+    text-align: center;
+    background-color: #e31837;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-status-wrapper{
+        width: 80%;
+    }
+  }
